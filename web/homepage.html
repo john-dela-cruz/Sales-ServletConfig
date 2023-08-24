@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sales Computation</title>
+</head>
+<body>
+	<form action='computesales.action' method='post'>
+		<p>Name: 
+			<input type='text' name='name' size='30' 
+				required="required"/>
+		</p>
+		<p>Code: 
+			<select name='code'>
+				<option value='A'>A</option>
+				<option value='B'>B</option>
+				<option value='C'>C</option>
+			</select>
+		</p>
+		<p>Sales: 
+			<input type='number' name='sales'
+				required="required" />
+		</p>
+		<p>
+			<input type="submit" value='SUBMIT'/>
+		</p>
+	</form>
+</body>
+</html>
